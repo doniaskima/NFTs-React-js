@@ -1,0 +1,50 @@
+.topfold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 93vh;
+    overflow: hidden;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+    position: relative;
+}
+
+.topLeft-heading {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.top-left-description {
+    font-size: 20px;
+    margin: 24px 0;
+}
+
+.top-left-btns {
+    display: flex;
+    margin-top: 39px;
+}
+
+.top-left-info {
+    display: flex;
+    padding: 48px 0px 0px;
+}
+
+.top-left-InfoItem {
+    margin-right: 24px;
+}
+
+.top-left-InfoItem-Count {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.top-left-InfoItem-lebel {
+    font-size: 15px;
+    font-weight: 600;
+}
