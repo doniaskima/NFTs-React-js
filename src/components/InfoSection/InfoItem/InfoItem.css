@@ -1,0 +1,20 @@
+.info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 28px;
+    width: 30%;
+}
+
+.ii-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 18px;
+}
+
+.ii-description {
+    margin-top: 18px;
+    font-size: 18px;
+}
