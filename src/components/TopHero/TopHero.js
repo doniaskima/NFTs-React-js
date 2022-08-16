@@ -29,6 +29,7 @@ const TopLeft = () => {
                       <div className="top-left-InfoItem-Count">10k+</div>
                       <div className="top-left-InfoItem-lebel">Artists</div>
                   </div>
+                  <div className="top-left-violet"></div>
                   <div className="top-left-InfoItem">
                       <div className="top-left-InfoItem-Count">700k+</div>
                       <div className="top-left-InfoItem-lebel">ommunities</div>

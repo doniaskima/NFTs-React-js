@@ -77,6 +77,18 @@
     height: 400px;
 }
 
+.top-left-violet {
+    height: 530px;
+    width: 530px;
+    background-color: var(--bg-blob);
+    filter: blur(160.58px);
+    z-index: -99;
+    position: absolute;
+    transform: translate(-50%);
+    left: 46%;
+    top: 30%;
+}
+
 @media screen and (max-width: 768px) {
     .topfold {
         justify-content: center;
