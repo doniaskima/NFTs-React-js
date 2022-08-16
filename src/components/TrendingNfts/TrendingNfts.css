@@ -1,0 +1,15 @@
+.trending-nfts {
+    padding: 108px 9px;
+    position: relative;
+    
+}
+
+.trending-title {
+    font-size: 46px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 36px;
+}

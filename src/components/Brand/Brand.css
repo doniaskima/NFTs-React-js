@@ -1,0 +1,22 @@
+.brand {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 24px 0px;
+    cursor: pointer;
+}
+
+.logos {
+    height: 160px;
+}
+
+@media (max-width: 768px) {
+    .brand {
+        width: 20%;
+        padding: 24px 0px;
+    }
+    .logos {
+        height: 100px;
+    }
+}
