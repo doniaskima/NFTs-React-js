@@ -5,14 +5,7 @@ import { TRENDING_NFTS } from "../../data/trendingNfts";
 import TrendingCard from "./TrendingCard";
 import "./trendingNfts.css";
 
-const settings = {
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  autoplay: true,
-  speed: 500,
-  arrows: false,
-};
-
+ 
 const TrendingNfts = () => {
   return (
     <div className="trending-nfts">
@@ -20,11 +13,14 @@ const TrendingNfts = () => {
         <span className="heading-gradient">TRENDING NFTs</span>
       </div>
       <div className="tn-bg-blog"></div>
-      <Slider {...settings}>
+      <div className="nfts-blog"> 
+        
         {TRENDING_NFTS.map((_nft) => (
           <TrendingCard nft={_nft} />
         ))}
-      </Slider>
+       
+      </div>
+      <div className="tn-bg-blog"></div>
       <div className="tn-btn">
         <Button btnText="SEE MORE" type="SECONDARY" customClass="seemore-btn" />
       </div>
