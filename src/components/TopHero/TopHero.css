@@ -1,17 +1,14 @@
 .topfold {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     height: 93vh;
     overflow: hidden;
 }
 
 .top-left {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    margin-top: 50px;
     padding-right: 48px;
-    position: relative;
 }
 
 .topLeft-heading {
@@ -26,6 +23,7 @@
 }
 
 .top-left-btns {
+    gap: 20px;
     display: flex;
     margin-top: 39px;
 }
@@ -47,4 +45,43 @@
 .top-left-InfoItem-lebel {
     font-size: 15px;
     font-weight: 600;
+}
+
+.top-right {
+    margin-top: 100px;
+    position: relative;
+}
+
+.top-right-nfts {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.top-right-nfts-item {
+    margin: 6px;
+    overflow: hidden;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid var(--white);
+    border-radius: 12px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.tf-r-diamond-img {
+    display: block;
+    height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .topfold {
+        justify-content: center;
+        height: 93vh;
+        overflow: hidden;
+        display: block;
+    }
 }
