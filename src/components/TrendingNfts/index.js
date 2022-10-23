@@ -3,7 +3,7 @@ import Slider from "react-slick/lib/slider";
 import Button from "../../common/Button/Button";
 import { TRENDING_NFTS } from "../../data/trendingNfts";
 import TrendingCard from "./TrendingCard";
-import "./trendingNfts.css";
+import "./TrendingNfts.css";
 
  
 const TrendingNfts = () => {
